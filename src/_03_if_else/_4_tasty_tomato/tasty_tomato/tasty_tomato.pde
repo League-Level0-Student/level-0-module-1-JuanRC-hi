@@ -16,8 +16,8 @@ void draw() {
    rect(176, 103, 12, 32);
    
     //take a bite
-   noStroke();
+    if(mousePressed){
    fill(200,200,200);
-  ellipse(mouseX,mouseY,60,60);
- 
+  ellipse(100,200,60,60);
+    }
 }
