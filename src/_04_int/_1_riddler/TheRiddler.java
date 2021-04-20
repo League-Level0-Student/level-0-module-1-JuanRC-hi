@@ -20,6 +20,8 @@ public class TheRiddler {
 
 		// 2. Make a pop up to show the score.
 		
+		
+		
 	}
 }
 
