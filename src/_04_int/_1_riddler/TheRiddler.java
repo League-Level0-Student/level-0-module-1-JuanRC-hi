@@ -21,20 +21,29 @@ if (riddle.equals("A candle")) {
 	else {
 		JOptionPane.showMessageDialog(null,"wrong(A candle)");
 	}
-
+JOptionPane.showMessageDialog(null, score);
 		// 6. Add some more riddles
 String riddle2= JOptionPane.showInputDialog(null, "Who makes it, has no need of it."
 		+"Who buys it, has no use for it."
 		 +"Who uses it can neither see nor feel it."
 		+ "What is it?");
-//if riddle2.equals
-		// 2. Make a pop up to show the score.
-	JOptionPane.showMessageDialog(null, score);
+if (riddle2.equals("A coffin")){
 	
-		
-		
-		
+	JOptionPane.showMessageDialog(null,"correct!");
+	score++;	
+}
+
+else {
+	JOptionPane.showMessageDialog(null,"wrong(A coffin)");
+}		
+	
+JOptionPane.showMessageDialog(null, score);
+
 	}
-	}
+	
+}
+		
+	
+	
 
 
